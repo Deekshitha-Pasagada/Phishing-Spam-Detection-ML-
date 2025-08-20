@@ -32,6 +32,24 @@ This repository combines two parts:
 # Run notebooks
    ```bash
    jupyter notebook
-
+   ```
 # Run Flask app
+Ensure `models/model_phish.pkl` exists and the app points to the correct model path.
+```bash
+export FLASK_APP=src/app.py
+flask run
+```
+
+# Results
+- **Phishing (MDP-2018 / UCI)**: Random Forest ~94% accuracy
+- **Spam (UCI Spambase)**: NB baseline strong; RF/XGB higher after tuning
+
+# Data & Privacy
+If `signup.db` contains real user data, **do not commit** it. Provide a blank DB or migrations.
+
+# Authors
+- Deekshitha Pasagada
+- Kenneth Gadhari
+
+**Guided by:** Dr. Harikrishna
 
