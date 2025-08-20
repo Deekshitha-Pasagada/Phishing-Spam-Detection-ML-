@@ -18,7 +18,7 @@ This repository combines two parts:
 1) Clone:
    ```bash
    git clone https://github.com/Deekshitha-Pasagada/Phishing-Spam-Detection-ML-.git
-   cd Phishing-Spam-Detection-ML
+   cd Phishing-Spam-Detection-ML-
 
 2) Create venv (optional but recommended):
    ```bash
