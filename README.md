@@ -17,5 +17,21 @@ This repository combines two parts:
 # Setup
 1) Clone:
    ```bash
-   git clone https://github.com/<your-username>/Phishing-Spam-Detection-ML.git
+   git clone https://github.com/Deekshitha-Pasagada/Phishing-Spam-Detection-ML-.git
    cd Phishing-Spam-Detection-ML
+
+2) Create venv (optional but recommended):
+   ```bash
+   python -m venv .venv   # Windows: .venv\Scripts\activate
+   source .venv/bin/activate   # macOS/Linux
+
+3) Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+# Run notebooks
+   ```bash
+   jupyter notebook
+
+# Run Flask app
+
